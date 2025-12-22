@@ -2,5 +2,6 @@
 [ICML'25] TimeDART: A Diffusion Autoregressive Transformer for Self-Supervised Time Series Representation
 
 
+# Main Method
 # TODO
 
