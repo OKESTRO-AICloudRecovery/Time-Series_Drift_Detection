@@ -5,7 +5,7 @@ from layers.SelfAttention_Family import DSAttention, AttentionLayer
 from layers.Embed import DataEmbedding
 from utils.losses import AutomaticWeightedLoss
 from utils.tools import ContrastiveWeight, AggregationRebuild
-from utils.tools import ContrastiveWeight 
+from utils.tools import  AggregationRebuild
 
 class Flatten_Head(nn.Module):
     def __init__(self, seq_len, d_model, pred_len, head_dropout=0):
